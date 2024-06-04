@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid black;
+}
+
+.nav {
+    width: fit-content;
+    margin: 20px;
+}
+
+.navbar ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.active {
+    color: red;
+}
